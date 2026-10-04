@@ -749,6 +749,29 @@
       }
     ]
   },
+  { 
+      "name": "Zk2FA Wallet",
+      "app_name": "zk2fa",
+      "image": "https://www.tonnel.network/Logo3.png",
+      "about_url": "https://zk2fa.tonnel.network",
+      "universal_url": "https://zk2fa.tonnel.network/ton-connect",
+      "bridge": [
+        {
+          "type": "sse",
+          "url": "https://tc.tonnel.network/bridge"
+        }
+      ],
+      "platforms": ["ios", "android", "macos", "windows", "linux"],
+      "features": [
+        {
+          "name": "SendTransaction",
+          "maxMessages": 255,
+          "extraCurrencySupported": false
+        },
+        {
+          "name": "SignData",
+          "types": ["text", "binary", "cell"]
+        }
   {
     "app_name": "sparx",
     "name": "SparX Wallet",
