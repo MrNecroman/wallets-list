@@ -1,0 +1,6 @@
+# Release pointer: the published deployment tracks exactly this commit.
+# build.yml builds a per-sha image for every commit on main, so bumping this
+# pointer also publishes its own image — no separate re-tag step is needed.
+release:
+  branch: main
+  sha: 2df6359ef7e5107865a3e765ef1a6ce907bd2475
