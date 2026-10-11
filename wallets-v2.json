@@ -30,42 +30,6 @@
     ]
   },
   {
-    "app_name": "gramwallet",
-    "name": "Gram Wallet",
-    "image": "https://static.gramwallet.io/gramwallet/icon-288.png",
-    "about_url": "https://gramwallet.io/?utm_source=tc",
-    "universal_url": "https://connect.gramwallet.io",
-    "deepLink": "gramwallet-tc://",
-    "bridge": [
-      {
-        "type": "js",
-        "key": "gramwallet"
-      },
-      {
-        "type": "sse",
-        "url": "https://tonconnectbridge.mytonwallet.org/bridge/"
-      }
-    ],
-    "platforms": [
-      "ios",
-      "android"
-    ],
-    "ui": {
-      "isButtonTransparent": true
-    },
-    "features": [
-      {
-        "name": "SendTransaction",
-        "maxMessages": 255,
-        "extraCurrencySupported": false
-      },
-      {
-        "name": "SignData",
-        "types": ["text", "binary", "cell"]
-      }
-    ]
-  },
-  {
     "app_name": "telegram-wallet",
     "name": "Walt (ex. Wallet)",
     "image": "https://wallet.tg/images/logo-288.png",
